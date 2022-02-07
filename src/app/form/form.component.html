@@ -11,15 +11,15 @@
     <form class="hide my-2 p-2">
       <div class="form-group">
         <label class="form-control-sm bg-transparent w-auto d-inline-flex" for="quote">Add a new quote</label>
-        <textarea class="form-control bg-light-white" [(ngModel)]="quote" name="quote" id="quote" cols="30" rows="3"></textarea>
+        <textarea class="form-control bg-light-white"  name="quote" id="quote" cols="30" rows="3"></textarea>
       </div>
       <div class="form-group-sm d-inline-block">
         <label class="form-control w-auto d-inline-flex bg-transparent" for="author">Author</label>
-        <input class="form-control bg-light-white" [(ngModel)]="author" id="author" name="author" type="text">
+        <input class="form-control bg-light-white"  id="author" name="author" type="text">
       </div>
       <div class="form-group-sm d-inline-block mx-4">
         <label class="form-control d-inline-flex w-auto bg-transparent" for="user">Posted By</label>
-        <input class="form-control bg-light-white" [(ngModel)]="postBy" id="user" name="user" type="text">
+        <input class="form-control bg-light-white"  id="user" name="user" type="text">
       </div>
       
       <button (click)="addQuotes()" id="submit" type="submit" class="btn d-block btn-sm my-2">Submit</button>

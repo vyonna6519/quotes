@@ -15,9 +15,7 @@ CSS is used for styling the app
 
 bootstrap css framework has been used for the styling as well
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Description
 This is a web-app built for providing quotes to the user.
@@ -32,6 +30,6 @@ users can also upvote and downvote quotes that they like or don't like.
 
 
 ### Live Site
-View [Live]( https://vyonna6519.github.io/quotes/)
+View [Live](https://github.com/vyonna6519/quotes.git)
 ### License
 This project is under the  [MIT](LICENSE.md) license
