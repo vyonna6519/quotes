@@ -2,26 +2,34 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
 
-## Development server
+Author Vyonna Njenga.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Language used
+
+
+TypeScript - used for adding functionality to the app
+
+Html Markup and has been used to write the markup
+
+CSS is used for styling the app
+
+bootstrap css framework has been used for the styling as well
 
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Description
+This is a web-app built for providing quotes to the user.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Users can  add and delete quotes - this feature will much effective once a login system has been established but for now it just shows a basic exaple of how the project works.
 
-## Running unit tests
+users can also upvote and downvote quotes that they like or don't like.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## copyright and license
+
+[Copyright]() 2022
