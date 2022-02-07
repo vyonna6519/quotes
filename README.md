@@ -1,6 +1,6 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
+This project where user can input quotes and also view ,add and delete quotes
 
 ## Development server
 
