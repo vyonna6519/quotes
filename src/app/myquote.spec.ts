@@ -1,6 +1,6 @@
 import { Quote } from './quote';
 
-describe('Quote', () => {
+describe('Myquote', () => {
   it('should create an instance', () => {
     expect(new Quote()).toBeTruthy();
   });

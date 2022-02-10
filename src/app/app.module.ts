@@ -1,28 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormComponent } from './form/form.component';
-import { CardsComponent } from './cards/cards.component';
-import { FooterComponent } from './footer/footer.component';
+import { QuotesComponent } from './quotes/quotes.component';
+import { QuoteInfoComponent } from './quote-info/quote-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormComponent,
-    CardsComponent,
-    FooterComponent,
-    // FormComponent,
-    // QuotesComponent,
-    // MyformComponent,
-    // QuotesinfoComponent
+    QuotesComponent,
+    QuoteInfoComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,7 @@
 export class Quote {
-    constructor(public quote:string, public author:string ,public postBy:string) {}
-
-}
+    // showDescription: boolean;
+  
+    constructor(public id: number,public name: string,public quote: string,){
+    //   this.showDescription=false;
+    }
+ }
