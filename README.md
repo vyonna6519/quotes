@@ -16,6 +16,8 @@ CSS is used for styling the app
 bootstrap css framework has been used for the styling as well
 
 
+## screenshot
+![Screenshot from 2022-02-10 22-50-58](https://user-images.githubusercontent.com/93370913/153486168-25b796c3-94e8-4ebd-ae68-682052ecb902.png)
 
 ## Description
 This is a web-app built for providing quotes to the user.
