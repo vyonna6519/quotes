@@ -6,17 +6,22 @@
             <h1>My quotes app</h1>
             <hr>
             <ul>
-                <li *ngFor='let quotes of quotes'>
-                      {{quotes.quote}}  
+                <li *ngFor='let quote of quote'>
+                      {{quote.quote}}  
                 </li>
             </ul>
           </div>   
         </div>
         <div class="forms">
             <app-form ></app-form>
-            <app-quote-info class="quote"></app-quote-info>
+            <app-quote-info class="quoty"></app-quote-info>
+            
+            
         </div>
+        
 </div>
 
 
 </div>
+<div *ngFor='let quote of quote;let i = index'>
+    <li appStrikethrough>{{quote.name}} due on {{quote.completeDate}}</li> 

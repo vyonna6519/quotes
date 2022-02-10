@@ -9,13 +9,13 @@ import { Quote } from '../quote';
 export class FormComponent implements OnInit {
   
       
-   quotes = new Quote(0,'', '',);
+   quotes = new Quote(0,'', '',new Date());
   @Output() addQuote = new EventEmitter<Quote>();
 
   submitQuote() {
     this.addQuote.emit(this.quotes);
   }
-  
+
   constructor() {}
 
   ngOnInit() {}
