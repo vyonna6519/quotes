@@ -1,1 +1,27 @@
-<p>quote-info works!</p>
+
+<div class="content" role="main">
+    <div class="tooslie container">
+        <h1>Quotes</h1>
+        <div class="row">
+
+            
+
+            <div class="col-md-6" style="width:500px">
+                <div id="{{i}}" appHighlightQuote class="card" *ngFor='let quote of quotes; let i=index'>
+                    <p class="card-title"> {{ quote.quote }}</p>
+
+                    <p class="card-text">{{ quote.name }}</p>
+
+                    <div class="card-body">
+                        <button (click)='(i)' class="btn btn-outline-info" data-toggle="button">
+                            Quote details
+                        </button>
+
+                        
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>

@@ -6,16 +6,12 @@ import {Quote} from '../quote';
   styleUrls: ['./quote-info.component.css']
 })
 export class QuoteInfoComponent implements OnInit {
-  quotes:Quote[] = [
-    {id:1,name:'vyonna',quote:'You only live once,live it up'},
-    {id:1,name:'vyonna',quote:'You only live once,live it up'},
-    {id:1,name:'vyonna',quote:'You only live once,live it up'},
-    {id:1,name:'vyonna',quote:'You only live once,live it up'}
-  ];
-
+  quotes: Quote[] = [
+    new Quote(1,'Wisdom Quote', 'Judge the character of a man by how he treats those who can do nothing for him.'), 
+  ]
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() :void {
   }
 
 }

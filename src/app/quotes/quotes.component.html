@@ -1,8 +1,9 @@
 
-<div>
-    <div class="col-md-6">
+<div class="container">
+    <div class="row">
+    <div class="col-sm-6">
         <div>
-            <h1>My quotes</h1>
+            <h1>My quotes app</h1>
             <hr>
             <ul>
                 <li *ngFor='let quotes of quotes'>
@@ -10,5 +11,12 @@
                 </li>
             </ul>
           </div>   
-        
+        </div>
+        <div class="forms">
+            <app-form ></app-form>
+            <app-quote-info class="quote"></app-quote-info>
+        </div>
+</div>
+
+
 </div>

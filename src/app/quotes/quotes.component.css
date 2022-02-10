@@ -1,0 +1,23 @@
+.row {
+    margin-top: 20px;
+    background-color: rgb(65, 128, 128);
+    justify-content: space-around;
+    font-size: 26px;
+    margin-left: 60px;
+}
+.row h1 {
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    margin-left: 60px;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    margin-top:30px;
+}
