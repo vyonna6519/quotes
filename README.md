@@ -9,8 +9,7 @@ By Vyonna Njenga.
 ![Screenshot from 2022-02-11 14-56-34](https://user-images.githubusercontent.com/93370913/153587463-0349227b-da4a-40e8-87cb-65cd675fb8d0.png)
 
 ## Setup/Installation Requirements
- 1.Install Node Version Manager, Nodejs and Node Package Manager
- 2.Install angular CLI
+ 1.Install Node Version Manager, Nodejs and Node Package Manager and Angular CLI.
 
 ## Development server
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files. 
