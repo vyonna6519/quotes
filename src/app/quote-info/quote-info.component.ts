@@ -8,22 +8,14 @@ import { Quote } from '../quote';
 })
 export class QuoteInfoComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote(1,'Wisdom Quote', 'Judge the character of a man by how he treats those who can do nothing for him.', new Date(2020,3,14)), 
+    // new Quote(1,'Wisdom Quote', 'Judge the character of a man by how he treats those who can do nothing for him.', new Date(2020,3,14)), 
   ]
 
   toggleDetails(index) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
   
-  deleteQuote(isComplete, index) {
-    if(isComplete){
-      let toDelete = confirm(`Confirm delete of ${this.quotes[index].name}?`)
-      
-      if (toDelete) {
-        this.quotes.splice(index, 1)
-      }
-    }
-  }
+  
   
     addNewQuote(quote) {
       let quoteLength = this.quotes.length;

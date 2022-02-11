@@ -13,8 +13,8 @@
           </div>   
         </div>
         <div class="forms">
-            <app-form ></app-form>
-            <app-quote-info class="quoty"></app-quote-info>
+            <app-form (addQuote)="addnewQuotes($event)"></app-form>
+            <!-- <app-quote-info class="quoty"></app-quote-info> -->
             
             
         </div>
@@ -23,5 +23,22 @@
 
 
 </div>
-<div *ngFor='let quote of quote;let i = index'>
-    <li appStrikethrough>{{quote.name}} due on {{quote.completeDate}}</li> 
+<div *ngFor='let quote of quotes;let i = index' class="quote col-md-6">
+    <div class="quote1">
+    <h4>Title:{{quote.title}}</h4>
+    <li>Quote:{{quote.quote}} </li>
+    <p>Author:{{quote.author}}</p> 
+    <p>Posted by:{{quote.name}}</p>
+    <p>Posted on:{{quote.completeDate|date}}</p>
+  </div>
+    <div class="btn mb-3">
+        <div>
+            <button (click)='countLike() ' class="button"><i class="fas fa-thumbs-up ml-5" > {{quote.upvote}} </i></button>
+            <button (click)='countDislike() ' class=" button"><i class="fas fa-thumbs-down" >{{quote.downvote}} </i></button>
+        </div>
+        <button (click)= 'deleteQuote(true)'class="btn btn-danger">Delete Quote</button>
+    
+    </div>
+    <p>likes:{{quote.upvote}}</p>
+    <p>Dislikes:{{quote.downvote}}</p>
+</div>
