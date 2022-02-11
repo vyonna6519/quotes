@@ -34,9 +34,9 @@
     <div class="btn mb-3">
         <div>
             <button (click)='countLike() ' class="button"><i class="fas fa-thumbs-up ml-5" > {{quote.upvote}} </i></button>
-            <button (click)='countDislike() ' class=" button"><i class="fas fa-thumbs-down" >{{quote.downvote}} </i></button>
+            <button (click)='countDislike() ' class=" button"><i class="fas fa-thumbs-down ml-5" >{{quote.downvote}} </i></button>
         </div>
-        <button (click)= 'deleteQuote(true)'class="btn btn-danger">Delete Quote</button>
+        <button (click)= 'deleteQuote(true ,i)'class="btn btn-danger">Delete Quote</button>
     
     </div>
     <p>likes:{{quote.upvote}}</p>
